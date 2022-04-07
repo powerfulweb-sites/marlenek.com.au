@@ -1,0 +1,53 @@
+name: "products"
+label: "Products"
+label_singular: "Product"
+folder: "content/shop"
+filter: {field: "visible", value: true}
+path: "{{id}}/index"
+media_folder: ''
+public_folder: ''
+create: true
+delete: true
+fields:
+- import field visible
+- import field title 
+- import field id
+- import: field summary
+  extend:
+    hint: Summary is for shopping cart, item overview, and search engines
+- import field draft
+- import field popular
+- import: field images
+  extend: 
+    hint: Minimum 1 image
+    min: 1
+- import field categories
+- import field price
+- import field size
+# - import field sizes
+- name: brand
+  label: Brand
+  required: true
+  widget: string
+  default: Pure Blue Essentials
+- name: weight
+  label: Weight
+  widget: number
+  value_type: int
+  hint: Input weight in grams
+- name: length
+  label: Length
+  widget: number
+  value_type: int
+  hint: Input length in whole cm
+- name: height
+  label: Height
+  widget: number
+  value_type: int
+  hint: Input height in whole cm
+- name: width
+  label: Width
+  widget: number
+  value_type: int
+  hint: Input width in whole cm
+- import field body 

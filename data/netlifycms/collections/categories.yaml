@@ -1,0 +1,15 @@
+name: "shop_categories"
+label: "Shop categories"
+label_singular: "Shop category"
+folder: "content/categories"
+create: true
+delete: false
+filter: {field: "visible", value: true}
+#only for creation
+path: "{{id}}/_index.md"
+identifier_field: id
+fields:
+  - import field title
+  - import field images
+  - import field id
+

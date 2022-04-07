@@ -1,0 +1,7 @@
+name: "images"
+label: "Images"
+widget: "list"
+label_singular: "image"
+required: false
+summary: '{{fields.image}}'
+field: { name: "image", label: "Image", widget: "image", media_folder: "", required: false, allow_multiple: false, choose_url: false}

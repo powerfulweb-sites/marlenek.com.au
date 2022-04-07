@@ -1,0 +1,25 @@
+{{ partial "esbuild" (dict "src" "js/vendor.js") -}}
+{{ partial "esbuild" (dict "src" "js/assets.js") -}}
+
+{{ if eq .Type "contact" }}
+  {{ partial "esbuild" (dict "src" "js/contact.js") -}}
+{{ end }}
+{{/*  {{ if eq .Type "shop"}}
+{{ partial "esbuild" (dict "src" "js/product-single.js" ) }}
+{{ end }}  */}}
+<!-- {{ partial "image/js"}} -->
+
+
+{{- /* EXAMPLE - only load script for production
+{{ if eq (hugo.Environment) "production" -}}
+  {{ partial "esbuild" (dict "src" "js/instantpage.js") -}}
+{{ end -}}
+*/}}
+{{/* EXAMPLE - only load script for a page type e.g. contact or gallery
+{{ if eq .Type "gallery" }}
+  {{ partial "esbuild" (dict "src" "js/gallery.js" "transpile" true) -}}
+{{ end }}
+
+*/ -}}
+
+

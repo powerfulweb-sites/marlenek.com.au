@@ -1,0 +1,5 @@
+name: "summary"
+label: "Summary"
+widget: "string"
+hint: Max 120-150 characters
+required: false

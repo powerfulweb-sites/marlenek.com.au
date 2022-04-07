@@ -1,0 +1,15 @@
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+{{- /* displays 5 related products */ -}}
+<div class="sidebar">
+    <div class="">Related Products:</div>
+    <ul class="">
+      {{ range . }}
+      <li>
+        <a class=""
+          href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+</div>
+{{ end }}

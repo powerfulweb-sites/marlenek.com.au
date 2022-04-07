@@ -1,0 +1,18 @@
+{{ $popular := false }}
+{{ range first 1 (where .Site.Pages "Params.popular" true) }}
+  {{ $popular = true }}
+{{ end }}
+{{ if $popular }}
+{{- /* displays 5 popular products */ -}}
+<div class="sidebar">
+    <div>Popular Products:</div>
+    <ul class="">
+      {{ range first 5 (where .Site.Pages "Params.popular" true) }}
+      <li>
+        <a class=""
+          href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+</div>
+{{ end }}

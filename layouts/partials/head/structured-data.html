@@ -1,0 +1,114 @@
+{{- /* https://developers.google.com/search/docs/advanced/structured-data/local-business */ -}}
+{{- with .Site.Data.schema -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ .type }}",
+  {{ with .images -}}
+  "image": [
+    {{- range $i, $e := . -}}
+      {{- if ne $i 0 -}}, {{ end }}
+      {{ . | absURL }}
+    {{- end }}
+    ],
+  {{ end -}}
+  "url": {{ site.BaseURL }},
+  "logo": {{ .logo | absURL }},
+  "name": "{{ site.Title }}",
+  {{- $social := .social -}}
+  {{- $socialCount := 0 -}}
+  {{ with $social -}}
+  "sameAs" : [
+    {{- range . -}}
+    {{- if ne $socialCount 0 -}}, {{ end }}
+    {{ .url }}
+    {{- $socialCount = add $socialCount 1 -}}
+    {{- end -}}
+  ],
+  {{ end -}}
+  "address": {
+    {{ with .postalAddress -}}
+    "@type": "PostalAddress",
+    "streetAddress": "{{ delimit .streetAddress ", " }}",
+    "addressLocality": "{{ .addressLocality }}",
+    "addressRegion": "{{ .addressRegion }}",
+    "postalCode": "{{ .postalCode }}",
+    "addressCountry": "{{ .addressCountry | default "Australia" }}"
+    {{ end -}}
+  },
+  {{ with .geo -}}
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ .latitude }},
+    "longitude": {{ .longitude }}
+  },
+  {{ end -}}
+  {{- with .telephone -}}
+  {{ range first 1 . -}}
+  "telephone": "{{ .url }}",
+  {{- end -}}
+  {{ end -}}
+  {{ with .email -}}
+  "email": "{{ .url }}",
+  {{ end -}}
+  {{ with .priceRange -}}
+  "priceRange": "{{ . }}",
+  {{ end -}}
+  {{ with .openingHoursSpecification.days -}}
+  "openingHoursSpecification": [
+    {{ range . -}}
+    {{- if and (not .custom) (and .opens .closes) -}}
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "{{ .dayOfWeek }}"
+      ],
+      "opens": "{{ time.Format "15:04" .opens }}",
+      "closes": "{{ time.Format "15:04" .closes }}"
+    },
+    {{- end -}}
+    {{ end -}}
+  ],
+  {{ end -}}
+} 
+</script>
+{{ end -}}
+{{- /* create breadcrumb scratch */ -}}
+{{- $dot := . -}}
+{{- $dot.Scratch.Set "path" "" -}}
+{{- $dot.Scratch.Set "breadcrumb" slice -}}
+{{- $url := replace .Permalink .Site.BaseURL "" -}}
+{{- $.Scratch.Add "path" .Site.BaseURL -}}
+{{- $.Scratch.Add "breadcrumb" (slice (dict "url" .Site.BaseURL "name" "home" "position" 1 )) -}}
+{{- range $index, $element := split $url "/" -}}
+  {{- $dot.Scratch.Add "path" $element -}}
+  {{- $.Scratch.Add "path" "/" -}}
+    {{- if ne $element "" -}}
+    {{- $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
+  {{- end -}}
+{{- end -}}
+{{- /* https://developers.google.com/search/docs/advanced/structured-data/breadcrumb#json-ld_1 */ -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{ $list := $.Scratch.Get "breadcrumb" -}}
+    {{ $len := (len $list) -}}
+    {{ range $index, $element := $list -}}
+    {{ if ne .position 1 -}}, {{ end -}}
+    {
+    "@type": "ListItem",
+    "position": {{ .position }},
+    {{- if ne (add $index 1) $len }}
+    "name": "{{ .name | humanize | title }}",
+    "item": {{ .url }}
+    {{- else -}}
+    {{- /* last item (the page) */ -}}
+    "name": "{{ $.Title | humanize | title }}"
+    {{- end }}
+  }
+    {{- end -}}
+  ]
+}
+</script>
