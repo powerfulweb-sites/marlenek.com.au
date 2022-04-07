@@ -6,8 +6,18 @@
   <div class="col-md-6">
     {{ with .Params.form.title }}
     <h3>{{ . }}</h3>
-    {{ end }} 
+    {{ end }}
     {{ partial "blocks/contact/form" .Params.form }}
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <div class="ratio ratio-16x9">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.011181010363!2d150.84382371521082!3d-33.889365880650594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1293ef73501b7d%3A0xe8092a23e62bf3fb!2s1%20Inverness%20Cct%2C%20Cecil%20Hills%20NSW%202171%2C%20Australia!5e0!3m2!1sen!2sus!4v1649368327301!5m2!1sen!2sus"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </div>
 </div>
 {{ end }}

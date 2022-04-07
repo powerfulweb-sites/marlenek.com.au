@@ -28,7 +28,7 @@ $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
-$orange:  #eedbd4;//#fd7e14 !default;
+$orange:  #EDDAD3;//#fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
@@ -197,3 +197,12 @@ $card-bg:                           $light; // $white !default;
 // $card-img-overlay-padding:          $spacer !default;
 // $card-group-margin:                 $grid-gutter-width * .5 !default;
 // scss-docs-end card-variables
+
+$headings-font-family:   'Noto Serif Display', serif;     // null !default;
+// $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+// $h1-font-size:                $font-size-base * 2.5 !default;
+// $h2-font-size:                $font-size-base * 2 !default;
+// $h3-font-size:                $font-size-base * 1.75 !default;
+// $h4-font-size:                $font-size-base * 1.5 !default;
+// $h5-font-size:                $font-size-base * 1.25 !default;
+// $h6-font-size:                $font-size-base !default;
