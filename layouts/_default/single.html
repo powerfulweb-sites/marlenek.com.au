@@ -1,23 +1,35 @@
 {{ define "main" }}
-<div class="pt-3">
-  <div class="clearfix">
+<div class="row pt-3 d-flex justify-content-center">
+  <div class="col-md-6 clearfix">
 
-  
+    {{ if .Params.images }}
     {{ $index0 := index .Params.images 0}}
-    <!-- {{ $imgDict := (dict
+    {{ if $index0 }}
+    {{ $dict0 := (dict
       "src" $index0
       "page" .
       "title" .Title
-      "class" "img-fluid float-end"
+      "class" "mb-3 ms-md-3 img-fluid"
       ) -}}
-      {{ partial "image" $imgDict }} -->
-      {{ $img := .Resources.GetMatch $index0 }}
       <div class="col-md-5 float-md-end">
-        <img src="{{ $img.RelPermalink }}" alt="" class="float-md-end mb-3 ms-md-3 img-fluid">
+        {{ partial "image" $dict0 }}
       </div>
-      
+    {{ end }}
+    {{ end }} 
     {{ .Content }}   
-  </div>
+
+    </div>
 </div>
+{{ if .Params.images }}
+  {{ $index1 := index .Params.images 1}}
+  {{ if $index1 }}
+  <div class="row d-flex justify-content-center my-3">
+    <div class="col-md-5 col-lg-4 col-xl-3">
+      {{ $dict1 := (dict "src" $index1 "page" . "title" "Marlene K")}}
+      {{ partial "image" $dict1 }}
+    </div>
+  </div>
+  {{ end }}
+{{ end }}
 
 {{ end }}

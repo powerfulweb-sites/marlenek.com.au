@@ -10,12 +10,15 @@ social:
     account: "@facebymarlenek"
     url: https://www.instagram.com/facebymarlenek/
     icon: icons/bootstrap/twitter
+    weight: 10
   facebook:
     url: https://www.facebook.com/FaceByMarleneK/
     icon: icons/bootstrap/facebook
+    weight: 20
   google: 
     url: google.com
     icon: icons/bootstrap/google
+    weight: 30
 # https://schema.org/PostalAddress
 postalAddress:
   name: Address

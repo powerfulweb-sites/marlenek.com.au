@@ -1,14 +1,43 @@
 {{ define "main" }}
+<div class="row">
+  <div class="col">
+    {{ range $i, $e := .Pages -}}
+    <article>
+      <div class="card m-3">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="card-title">
+                <h2>{{ .Title }}</h2>
+              </div>
+              <div class="card-text">
+                {{ .Summary }}
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 {{ if modBool $i 2 }}order-md-first{{ end }}">
+            <div class="card-img">
+              {{ if .Params.images }}
+              {{ $img := index .Params.images 0 }}
+              {{ $dict := (dict "src" $img "page" . "title" .Title ) }}
+              {{ partial "image" $dict }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </article>
+    {{ end -}}
 
 
-      {{ $paginator := .Paginate (.Data.Pages) -}}
-      {{ range $paginator.Pages -}}
-      <article>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        {{ .Description }}
-      </article>
-      {{ end -}}
-      {{ template "_internal/pagination.html" . -}}
+  </div>
+</div>
+
+   
+    
+   
     
 
 {{ end }}

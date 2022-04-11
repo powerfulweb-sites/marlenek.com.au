@@ -9,38 +9,39 @@
       <img class="img-fluid" src="{{ $heroImg.RelPermalink }}" alt="{{ .Site.Title }}" title="{{ .Site.Title }}">
     </div>
   </div>
-</div>
-<div class="container">
-  <div class="row row-cols-1 row-cols-md-3 services mb-3">
-  {{ range .Site.Menus.services }}
-  {{ $ctx := .}}
+
+  <div class="row row-cols-2 row-cols-md-4 services mb-3">
+    {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
+    {{ with .Page }}
+    {{ $ctx := .}}
     <div class="col">
-      <div class="card">
+      <div class="card h-100">
         <div class="card-img">
           {{ with .Page }}
-            {{ if .Params.images }}
-              {{- $serviceImg := .Resources.GetMatch (index .Params.images 0) -}}
-              <img class="img-fluid" src="{{ $serviceImg.RelPermalink }}" alt="{{ $ctx.Name }}" title="{{ $ctx.Name }}">
-            {{ end }}
+          {{ if .Params.images }}
+          {{- $serviceImg := .Resources.GetMatch (index .Params.images 0) -}}
+          <img class="img-fluid" src="{{ $serviceImg.RelPermalink }}" alt="{{ $ctx.Name }}" title="{{ $ctx.Name }}">
           {{ end }}
-  
+          {{ end }}
+
         </div>
         <div class="card-body">
           <h2 class="card-title h4">
-            <a class="text-decoration-none stretched-link" href="{{ .URL }}">{{ .Name }}</a>
+            <a class="text-decoration-none stretched-link" href="{{ .RelPermalink }}">{{ .Name }}</a>
           </h2>
           <div class="card-text">{{ .Page.Summary }}</div>
         </div>
       </div>
     </div>
-  {{ end }}
+    {{ end }}
+    {{ end }}
   </div>
 
 
 
 
 
-<!-- {{- .Content -}} -->
+  <!-- {{- .Content -}} -->
 
 </div>
 

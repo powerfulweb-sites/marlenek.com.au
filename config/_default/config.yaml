@@ -3,7 +3,8 @@ baseurl: "https://marlenek.netlify.app"
 # override .Site.Title for copyright notice
 # copyright: "Custom Business Name"
 
-disableKinds: ["taxonomy", "taxonomyTerm"]
+# disableKinds: ["taxonomy", "taxonomyTerm"]
+#disableKinds: [taxonomyTerm]
 enableEmoji: true
 enableGitInfo: false # does this default to false? delete??
 enableRobotsTXT: true
@@ -59,8 +60,8 @@ caches:
 #   filename: "sitemap.xml"
 #   priority: 0.5
 
-# taxonomies:
-#   category: "categories"
+taxonomies:
+  category: "categories"
 
 # permalinks:
 #   blog: "/:title/"

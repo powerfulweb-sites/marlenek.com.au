@@ -12,7 +12,7 @@ lead: |-
   all natural ingredients
 menu:
   main:
-    weight: 10
+    weight: 5
   footer:
     weight: 10
 
