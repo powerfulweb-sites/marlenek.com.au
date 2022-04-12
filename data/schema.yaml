@@ -16,7 +16,7 @@ social:
     icon: icons/bootstrap/facebook
     weight: 20
   google: 
-    url: google.com
+    url: https://goo.gl/maps/pMQUsFM3vT78ztRu8
     icon: icons/bootstrap/google
     weight: 30
 # https://schema.org/PostalAddress
