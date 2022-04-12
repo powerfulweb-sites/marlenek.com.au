@@ -1,7 +1,7 @@
 ---
 title: Fibro Blast Plasma
 weight: 20
-images: ["images/service1.jpg", "images/service2.jpg"]
+images: ["service1.jpg", "service2.jpg"]
 categories: [skin]
 summary: 
 ---
