@@ -1,5 +1,5 @@
 ---
-title: Lip Blush
+title: LIP Blush
 weight: 40
 images:
   - service2.jpg
