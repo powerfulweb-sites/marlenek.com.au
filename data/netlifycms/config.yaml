@@ -1,37 +1,16 @@
 backend:
   name: git-gateway
-  # commit_messages:
-  #   create: [skip ci] Create {{collection}} “{{slug}}”
-  #   update: [skip ci] Update {{collection}} “{{slug}}”
-  #   delete: [skip ci] Delete {{collection}} “{{slug}}”
-  #   uploadMedia: [skip ci] Upload “{{path}}”
-  #   deleteMedia: [skip ci] Delete “{{path}}”
-  #   openAuthoring: [skip ci] '{{message}}'
-  # branch: master
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 show_preview_links: false
-
+# local testing
+# when using the default proxy server port
+# npx netlify-cms-proxy-server
+local_backend: true
 editor:
   preview: false
 # site_url: https://majesticskinclinic.netlify.app/
 # logo_url: https://majesticskinclinic.netlify.app/logo/wide-small.png
 
 collections:
-- import collection pages
-- import collection news
-- import collection products
-- import collection categories
-#   extend:
-#     name: updates
-#     label: News Updates
-#     folder: content/updates
-
-# params
-# titleAddition
-# default page description:
-# description
-# snipcart side only (not full screen:
-# snipcart.side 
-# snipcart public key:
-# snipcart.key
+- import collection treatments
