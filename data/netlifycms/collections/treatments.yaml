@@ -1,0 +1,20 @@
+name: "Treatments"
+label: "treatments"
+label_singular: "Treatment"
+folder: "content/treatments"
+# path: "{{id}}/index"
+media_folder: ''
+public_folder: ''
+create: false
+delete: false
+fields:
+# - import field visible
+- import field title 
+# - import field id
+# - import: field summary
+#   extend:
+  # hint: Summary is for shopping cart, item overview, and search engines
+- import field draft
+- import: field images  
+# - import field categories
+- import field body 
