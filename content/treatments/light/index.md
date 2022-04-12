@@ -1,8 +1,35 @@
 ---
-title: Light Therapy
+title: Led  Light Therapy
 weight: 50
-images: ["service1.jpg", "service2.jpg"]
-categories: [skin]
-summary: 
+images:
+  - service1.jpg
+  - service2.jpg
+categories:
+  - skin
+summary: null
 ---
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit eum sint saepe quaerat sequi nulla ipsa ipsam non quam, aperiam eveniet incidunt, excepturi aspernatur officiis fugit labore hic. Harum, in?
+
+
+# **LED LIGHT COLLAGEN THERAPY** 
+
+**Benefits** 
+
+\-Evens out the skin tone
+
+\-Minimize the size of the pores
+
+\-Clear up blackheads and whiteheads
+
+\-Improve skin texture, tone and elasticity
+
+\-For better absorption of skin-care products
+
+\-Reduce the appearance of fine lines and wrinkles
+
+\-Reduce the appearance of skin spots caused by sun and age
+
+\-Minimize the appearance of acne scars and superficial scarring
+
+\-Help to boost collagen production to provide firming and toning to the complexion
+
+\-Improve the appearance of keratosis pilaris (also known as chicken skin or red bumps
