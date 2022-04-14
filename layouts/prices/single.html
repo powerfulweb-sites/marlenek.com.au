@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+{{ range sort site.Taxonomies.categories "Page.Params.weight" }}
+
+{{ $ctx := .}}
+<h2>{{ .Page.Title }}</h2>
+{{ .Page.Params.prices }}
+
+{{ end }}
+
+
+{{ end }}

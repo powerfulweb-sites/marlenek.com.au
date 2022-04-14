@@ -5,6 +5,9 @@ weight: 30
 images: ["service1.jpg", "service2.jpg"]
 categories: [skin]
 summary:
+prices:
+- text: BB Glow Treatment
+  price: 150
 ---
 ## What is BBGlow
 
