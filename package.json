@@ -32,7 +32,8 @@
     "hugo-version": "exec-bin node_modules/.bin/hugo/hugo version",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "release": "standard-version",
-    "release:dry-run": "standard-version --dry-run"
+    "release:dry-run": "standard-version --dry-run",
+    "netlify-build": "Invoke-WebRequest -method POST -body \" \" -uri https://api.netlify.com/build_hooks/6257916d3c52761aa35a7367"
   },
   "devDependencies": {
     "eslint": "^8.8.0",
