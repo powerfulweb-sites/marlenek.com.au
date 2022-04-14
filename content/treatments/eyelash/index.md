@@ -1,6 +1,6 @@
 ---
 title: Eyelash Extension
-weight: 30
+weight: 20
 images: ["service1.jpg", "service2.jpg"]
 categories: [beauty]
 summary: 

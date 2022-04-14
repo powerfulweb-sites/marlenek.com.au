@@ -1,7 +1,6 @@
 {{ define "main" }}
-<div class="row pt-3 d-flex justify-content-center">
-  <div class="col-md-6 clearfix">
-
+<div class="row pt-3 d-flex clearfix">
+  <div class="col">
     {{ if .Params.images }}
     {{ $index0 := index .Params.images 0}}
     {{ if $index0 }}
@@ -17,7 +16,6 @@
     {{ end }}
     {{ end }} 
     {{ .Content }}   
-
     </div>
 </div>
 {{ if .Params.images }}

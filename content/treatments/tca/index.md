@@ -1,17 +1,13 @@
 ---
 title: TCA Peel
-weight: 60
+weight: 70
 images:
   - service1.jpg
-  - service2.jpg
+  - tca-892x1024.jpg
 categories:
   - skin
 summary: null
 ---
-
-
-# **TCA Chemical Peel**
-
 Improve skin pigmentation & skin appearance
 
 TCA peels are used to improve pigmentation, sun damage, uneven tones and wrinkles. This chemical peel creates soft peeling on your face to make way for healthier, radiant skin, removes the top layer of your face to make way for healthier, radiant skin.
@@ -25,5 +21,3 @@ Here at Face by Marlene K we will evaluate your skin condition and make professi
 * White scars
 * Pigmentation
 * Sun Spots
-
-![](http://www.marlenek.com.au/wp-content/uploads/2018/08/tca-892x1024.jpg)

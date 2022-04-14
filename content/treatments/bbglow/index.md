@@ -1,7 +1,7 @@
 ---
 title: BBGlow
 ##  menu: [services, main]
-weight: 50
+weight: 30
 images: ["service1.jpg", "service2.jpg"]
 categories: [skin]
 summary:
@@ -21,4 +21,3 @@ You can have one treatment for that glow and deep deep facial treatment. However
 ## Down time
 
 No down time
-
