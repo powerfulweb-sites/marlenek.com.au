@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --gc",
     "dev:preview": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --gc --buildDrafts --buildFuture",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --cleanDestinationDir",
+    "build": "exec-bin node_modules/.bin/hugo/hugo -v --gc --minify --cleanDestinationDir",
     "start": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender --renderToDisk --cleanDestinationDir",
     "start:preview": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --buildDrafts --buildFuture ",
     "start:production": "exec-bin node_modules/.bin/hugo/hugo server --renderToDisk --cleanDestinationDir --disableFastRender --gc --minify --environment production",
