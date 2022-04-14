@@ -21,11 +21,13 @@
               {{ $img := index .Params.images 0 }}
               {{ $dict := (dict "src" $img "page" . "title" .Title ) }}
               {{ partial "image" $dict }}
-              {{ $tempImg := .Resources.GetMatch $img }}
+              {{ end }}
+              testing img <br>
+              {{ if .Params.images }}
+              {{ $tempImg := .Resources.GetMatch (index .Params.images 0) }}
               URL: {{ $tempImg.RelPermalink }}
               <img src="{{ $tempImg.RelPermalink }}" alt="">
-              {{ end }}
-             
+             {{ end }}
             </div>
           </div>
         </div>
