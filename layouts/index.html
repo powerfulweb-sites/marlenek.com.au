@@ -10,11 +10,11 @@
     </div>
   </div>
 
-  <div class="row row-cols-2 row-cols-md-4 services mb-3">
+  <div class="row row-cols-2 row-cols-md-3 services mb-3 d-flex justify-content-center">
     {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
     {{ with .Page }}
     {{ $ctx := .}}
-    <div class="col">
+    <div class="col pb-3">
       <div class="card h-100">
         <div class="card-img">
           {{ with .Page }}
