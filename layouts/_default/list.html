@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="row">
   <div class="col">
+    {{ if gt (len .Pages) 1 }}
     {{ range $i, $e := .Pages -}}
     <article>
       <div class="card m-3">
@@ -21,16 +22,17 @@
               {{ $img := index .Params.images 0 }}
               {{ $dict := (dict "src" $img "page" . "title" .Title) }}
               {{ partial "image" $dict }}
-              {{ $testImg := .Resources.GetMatch $img }}
-              URL: {{ $testImg.Permalink}}
               {{ end }}
             </div>
           </div>
         </div>
       </div>
-      
-      
     </article>
+    {{ end }}
+    {{ else }}
+      {{ with (index .Pages 0)}}
+        {{ .Render "single-page" }}
+      {{ end }}
     {{ end -}}
 
 

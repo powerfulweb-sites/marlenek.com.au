@@ -1,34 +1,3 @@
 {{ define "main" }}
-<div class="row pt-3 d-flex clearfix">
-  <div class="col">
-    {{ if .Params.images }}
-    {{ $index0 := index .Params.images 0}}
-    {{ if $index0 }}
-    {{ $dict0 := (dict
-      "src" $index0
-      "page" .
-      "title" .Title
-      "class" "mb-3 ms-md-3 img-fluid"
-      ) -}}
-      <div class="col-md-5 float-md-end">
-        {{ partial "image" $dict0 }}
-      </div>
-    {{ end }}
-    {{ end }} 
-
-    {{ .Content }}   
-    </div>
-</div>
-{{ if .Params.images }}
-  {{ $index1 := index .Params.images 1}}
-  {{ if $index1 }}
-  <div class="row d-flex justify-content-center my-3">
-    <div class="col-md-5 col-lg-4 col-xl-3">
-      {{ $dict1 := (dict "src" $index1 "page" . "title" "Marlene K")}}
-      {{ partial "image" $dict1 }}
-    </div>
-  </div>
-  {{ end }}
-{{ end }}
-
+{{ .Render "single-page" }}
 {{ end }}
