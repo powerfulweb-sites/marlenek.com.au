@@ -19,15 +19,16 @@
             <h3>{{ .Page.Title }}</h3>
             <div class="col-md-6 ms-3">
               {{ range .Page.Params.prices }}
+              {{  with .price }}
               <div class="row">
                 <div class="col-9">
                   {{ .text }}
                 </div>
                 <div class="col-3 d-flex">
-                  <span class="ms-auto">{{ printf "$%.2f" (float .price) }}</span>
+                  <span class="ms-auto">{{ printf "$%.2f" (float .amount) }}</span>
                 </div>
               </div>
-              
+              {{ end }}
               {{ end }}
             </div>
           {{ end }}

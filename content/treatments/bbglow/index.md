@@ -1,13 +1,16 @@
 ---
 title: BBGlow
-##  menu: [services, main]
 weight: 30
-images: ["service1.jpg", "service2.jpg"]
-categories: [skin]
-summary:
+images:
+  - service1.jpg
+  - service2.jpg
+categories:
+  - skin
+summary: null
 prices:
-- text: BB Glow Treatment
-  price: 150
+  - price:
+      text: BB Glow Treatment
+      amount: 150
 ---
 ## What is BBGlow
 

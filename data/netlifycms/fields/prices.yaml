@@ -3,6 +3,18 @@ label: "prices"
 widget: "list"
 label_singular: "Price"
 required: false
-summary: '{{fields.price}}'
-hint: Don't use a dollar sign
-field: { name: "price", label: "Price", widget: "number", value_type: float, required: false,}
+# summary: '{{fields.price.amount}}'
+field: 
+  name: "price" 
+  label: "Service" 
+  widget: "object" 
+  summary: '{{fields.text}}: {{fields.amount}}'
+  fields:
+  - name: "text"
+    label: "Text"
+    widget: "string"
+  - name: "amount"
+    label: "Price"
+    widget: "number"
+    value_type: float
+    hint: Don't use a dollar sign

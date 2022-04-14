@@ -6,7 +6,7 @@ show_preview_links: false
 # local testing
 # when using the default proxy server port
 # npx netlify-cms-proxy-server
-# local_backend: true
+local_backend: true
 editor:
   preview: false
 # site_url: https://majesticskinclinic.netlify.app/
