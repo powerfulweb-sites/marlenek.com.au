@@ -22,7 +22,7 @@
               {{ $dict := (dict "src" $img "page" . "title" .Title ) }}
               {{ partial "image" $dict }}
               {{ $tempImg := .Resources.GetMatch $img }}
-              {{ $tempImg.RelPermalink }}
+              URL: {{ $tempImg.RelPermalink }}
               <img src="{{ $tempImg.RelPermalink }}" alt="">
               {{ end }}
              
