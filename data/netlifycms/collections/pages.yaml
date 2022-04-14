@@ -10,5 +10,4 @@ files:
     - import field draft
     - import field summary
     - import field images
-    - import field prices
     - import field body
