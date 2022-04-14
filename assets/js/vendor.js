@@ -1,3 +1,3 @@
-import image from 'js/lazysizes';
+import lazysizes from 'lazysizes';
 
 import {Dropdown} from 'bootstrap';
