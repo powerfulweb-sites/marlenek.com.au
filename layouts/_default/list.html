@@ -19,15 +19,9 @@
             <div class="card-img">
               {{ if .Params.images }}
               {{ $img := index .Params.images 0 }}
-              {{ $dict := (dict "src" $img "page" . "title" .Title ) }}
+              {{ $dict := (dict "src" $img "page" . "title" .Title "debug" true) }}
               {{ partial "image" $dict }}
               {{ end }}
-              testing img <br>
-              {{ if .Params.images }}
-              {{ $tempImg := .Resources.GetMatch (index .Params.images 0) }}
-              URL: {{ $tempImg.RelPermalink }}
-              <img src="{{ $tempImg.RelPermalink }}" alt="">
-             {{ end }}
             </div>
           </div>
         </div>
