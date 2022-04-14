@@ -3,10 +3,10 @@ title: Meet your beauty Therapist
 draft: false
 menu: 
   main:
-    weight: 50
+    weight: 90
     name: About
   footer:
-    weight: 50
+    weight: 90
     name: About
 images: [marlene_temp.png, logo2022.jpg]
 ---

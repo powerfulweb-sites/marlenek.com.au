@@ -3,9 +3,9 @@ title: Contact Us
 draft: false
 menu: 
   main:
-    weight: 60
+    weight: 100
   footer:
-    weight: 60
+    weight: 100
 type: contact
 form:
   title: Send us a Message

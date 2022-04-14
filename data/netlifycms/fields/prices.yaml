@@ -1,0 +1,8 @@
+name: "prices"
+label: "prices"
+widget: "list"
+label_singular: "Price"
+required: false
+summary: '{{fields.price}}'
+hint: Don't use a dollar sign
+field: { name: "price", label: "Price", widget: "number", value_type: float, required: false,}

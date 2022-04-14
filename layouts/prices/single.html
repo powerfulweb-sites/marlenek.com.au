@@ -1,12 +1,41 @@
 {{ define "main" }}
-
-{{ range sort site.Taxonomies.categories "Page.Params.weight" }}
-
-{{ $ctx := .}}
-<h2>{{ .Page.Title }}</h2>
-{{ .Page.Params.prices }}
-
-{{ end }}
-
-
+<div class="row">
+  <div class="col">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      {{ $count := 0 }}
+      {{ range $key, $taxo := sort site.Taxonomies.categories "Page.Params.weight" }}
+      <li class="nav-item" role="presentation">
+        <button class="nav-link {{ if eq $key 0 }}active{{ end }}" id="nav-{{- $key -}}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{- $key -}}" type="button" role="tab" aria-controls="nav-{{- $key -}}" aria-selected="{{ if eq $count 0 }}true{{ else }}false{{ end }}">{{ .Page.Title }}</button>
+      </li>
+      {{ $count = add $count 1 }}
+      {{ end }}
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      {{ $countContent := 0 }}
+      {{ range  $key, $taxo := sort site.Taxonomies.categories "Page.Params.weight" }}
+        <div class="tab-pane fade {{ if eq $countContent 0 }} show active{{ end }}" id="nav-{{- $key -}}" role="tabpanel" aria-labelledby="nav-{{- $key -}}-tab">
+        {{ range .Pages }}  
+          {{ if .Params.prices }}
+            <h3>{{ .Page.Title }}</h3>
+            <div class="col-md-6 ms-3">
+              {{ range .Page.Params.prices }}
+              <div class="row">
+                <div class="col-9">
+                  {{ .text }}
+                </div>
+                <div class="col-3 d-flex">
+                  <span class="ms-auto">{{ printf "$%.2f" (float .price) }}</span>
+                </div>
+              </div>
+              
+              {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
+        </div>
+        {{ $countContent = add $count 1 }}    
+      {{ end }}
+    </div>
+  </div>
+</div>
 {{ end }}
