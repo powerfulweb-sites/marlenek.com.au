@@ -23,7 +23,7 @@ rssLimit: 10
 title: Face by Marlene K
 
 #summary length (words)
-summaryLength: 15
+summaryLength: 35
 
 # add redirects/headers (netlify)
 outputs:
