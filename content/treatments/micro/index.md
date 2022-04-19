@@ -1,12 +1,16 @@
 ---
 title: Microdermabrasion
 weight: 50
+summary: null
 images:
   - service1.jpg
   - service2.jpg
 categories:
   - skin
-summary: null
+prices:
+  - price:
+      text: Microdermabrasion
+      amount: 35
 ---
 Deep facial cleanse that makes way for fresh new skin cells
 
