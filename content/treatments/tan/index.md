@@ -1,12 +1,16 @@
 ---
 title: Spray Tan
 weight: 10
+summary: null
 images:
   - service1.jpg
   - service2.jpg
 categories:
   - beauty
-summary: null
+prices:
+  - price:
+      text: Spray Tan
+      amount: 35
 ---
 **Naked Tan** is the first choice in sunless tanning, 10 minutes in the salon then the ability to wash ‘n’ wear in just 2 hours to develop a natural, sunless Organic tan. The professional spray tanning formulation is enriched with Aloe Vera and contains no Parabens, no Alcohol and is odour free!
 
