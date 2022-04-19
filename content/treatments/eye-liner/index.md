@@ -1,15 +1,18 @@
 ---
 title: Eye Liner
 weight: 50
-categories: [tatooing]
-images: ["service2.jpg", "service1.jpg"]
-summary: 
+summary: null
+images:
+  - service2.jpg
+  - service1.jpg
+categories:
+  - tatooing
 prices:
-- price: 
-    text: Eye-liner top
-    amount: 250
-- price:
-    text: Eye-liner bottom
-    amount: 200
+  - price:
+      text: Eye-liner top
+      amount: 250
+  - price:
+      text: Eye-liner bottom
+      amount: 200
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt facere laudantium autem quidem perferendis, ea magni. Nihil, iure magnam alias ab et expedita veritatis officia esse architecto quidem illo necessitatibus.
+Eyeliner tattoo is a permanent eyeliner that is used as a treatment that replaces the need to wear eyeliner each day. It will last 3-10 years however ,the colour retention varies according to individual skin  type.( thicker skin  fades faster ), life style  (sun exposure ) body chemistry, and age.
