@@ -1,12 +1,37 @@
 ---
 title: Fibro Blast Plasmawave
 weight: 40
+summary: null
 images:
   - service1.jpg
   - service2.jpg
 categories:
   - skin
-summary: null
+prices:
+  - price:
+      text: Upper Eyelids
+      amount: 500
+  - price:
+      text: Lower Eyelids
+      amount: 350
+  - price:
+      text: Brow Lift
+      amount: 300
+  - price:
+      text: Crows Feet
+      amount: 350
+  - price:
+      text: Top Lip
+      amount: 300
+  - price:
+      text: Bottom Lip
+      amount: 300
+  - price:
+      text: Forehead
+      amount: 600
+  - price:
+      text: Nasolabial
+      amount: 400
 ---
 ## What is Fibro Blast Plasmawave ?
 
