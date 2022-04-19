@@ -1,9 +1,16 @@
 ---
-title: Skin needling / micro needling
+title: Skin Needling / Micro Needling
 weight: 20
-images: ["service1.jpg", "service2.jpg"]
-categories: [skin]
-summary: 
+summary: null
+images:
+  - service1.jpg
+  - service2.jpg
+categories:
+  - skin
+prices:
+  - price:
+      text: Skin Needling / Micro Needling
+      amount: 180
 ---
 ## What is Skin needling / micro needling
 
