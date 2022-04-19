@@ -1,12 +1,16 @@
 ---
 title: TCA Peel
 weight: 70
+summary: null
 images:
   - service1.jpg
   - tca-892x1024.jpg
 categories:
   - skin
-summary: null
+prices:
+  - price:
+      text: TCA Peel
+      amount: 60
 ---
 Improve skin pigmentation & skin appearance
 
