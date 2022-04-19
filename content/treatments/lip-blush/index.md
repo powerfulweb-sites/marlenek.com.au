@@ -1,12 +1,16 @@
 ---
 title: Lip Blush
 weight: 40
+summary: null
 images:
   - service2.jpg
   - service1.jpg
 categories:
   - tatooing
-summary: null
+prices:
+  - price:
+      text: Lip Blush
+      amount: 499
 ---
 ## What is lip blush
 
