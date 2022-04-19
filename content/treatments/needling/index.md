@@ -12,18 +12,14 @@ prices:
       text: Skin Needling / Micro Needling
       amount: 180
 ---
-## What is Skin needling / micro needling
+## What is Skin needling / Micro Needling
 
 Skin needling is Collagen induction therapy . Which means it is generating new collagen , for smoother younger firmer looking skin. Other benefits for skin needling are.
 
 * Acne scaring
-
 * Shrinks pores
-
 * Pigmentation
-
 * Sun spots
-
 * Reduces fine Lines and wrinkles
 
 ## How many treatments for Skin Needling/Micro Needling
