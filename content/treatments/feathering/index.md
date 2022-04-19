@@ -1,12 +1,16 @@
 ---
 title: Feathering / Microblading Brows
 weight: 20
+summary: null
 images:
   - service2.jpg
   - service1.jpg
 categories:
   - tatooing
-summary: null
+prices:
+  - price:
+      text: Feathering / Microblading Brows
+      amount: 450
 ---
 ## What is micro blading.
 
