@@ -1,12 +1,16 @@
 ---
 title: Led Light Colagen Therapy
 weight: 80
+summary: null
 images:
   - service1.jpg
   - service2.jpg
 categories:
   - skin
-summary: null
+prices:
+  - price:
+      text: Led Light Colagen Therapy
+      amount: 30
 ---
 ## Benefits
 
