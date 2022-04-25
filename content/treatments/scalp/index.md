@@ -1,12 +1,13 @@
 ---
 title: Scalp Pigmentation
 weight: 70
+summary: Price will be determined on consult, generally prices start from
+  $500-$4000. We also offer an hourly rate.
 images:
   - service1.jpg
   - service2.jpg
 categories:
   - scalp
-summary: null
 ---
 ## What is Scalp Micropigmentation (hair tattooing)?
 

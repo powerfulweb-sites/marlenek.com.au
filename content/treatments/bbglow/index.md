@@ -9,9 +9,6 @@ categories:
   - skin
 prices:
   - price:
-      text: BB Glow Treatment
-      amount: 150
-  - price:
       amount: 150
       text: BB GLOW
 ---
