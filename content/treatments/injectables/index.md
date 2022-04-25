@@ -1,8 +1,8 @@
 ---
 title: Injectables
 weight: 10
-summary: We offer Botox/Xeomin and Dysport, price will be determined on consult
-  by our nurse Sheida.
+summary: We offer Botox/Xeomin, Dysport, Juviderm, Resteline and Aqualine.
+  Prices will be determined on consult by our nurse Sheida.
 images:
   - service1.jpg
   - service2.jpg
