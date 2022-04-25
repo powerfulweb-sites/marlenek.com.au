@@ -1,7 +1,7 @@
 ---
 title: Injectables
 weight: 10
-summary: We offer Botox/Xeomin and Dysport, please call salon for prices.
+summary: We offer Botox/Xeomin and Dysport, price will be determined on consult.
 images:
   - service1.jpg
   - service2.jpg
