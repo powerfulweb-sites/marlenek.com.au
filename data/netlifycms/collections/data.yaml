@@ -1,0 +1,29 @@
+name: data
+label: Site Configuration
+files:
+- name: prices
+  label: Prices
+  label_singular: Price
+  file: "data/prices.yaml"
+  fields:
+  - label: Treatment Types
+    label_singular: Treatment Type
+    name: prices
+    widget: list
+    summary: '{{fields.title}}' 
+    fields: 
+    - label: Title
+      name: title
+      widget: string
+    - label: Prices
+      name: prices
+      widget: list
+      summary: '{{fields.title}} ${{fields.amount}}'
+      fields: 
+      - label: Title
+        name: title
+        widget: string
+      - label: Amount
+        name: amount
+        widget: string
+        hint: Don't use a dollar sign. Enter number or text. 

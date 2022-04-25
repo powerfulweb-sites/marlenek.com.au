@@ -15,6 +15,5 @@ field:
     widget: "string"
   - name: "amount"
     label: "Price"
-    widget: "number"
-    value_type: float
-    hint: Don't use a dollar sign
+    widget: "string"
+    hint: Don't use a dollar sign. Input text or a number.

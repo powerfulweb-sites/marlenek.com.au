@@ -13,6 +13,6 @@ fields:
 - import field draft
 - import field images  
 - import field categories
-- import field prices
+# - import field prices
 - import field body 
 
