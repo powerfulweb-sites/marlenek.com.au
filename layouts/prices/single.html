@@ -12,19 +12,19 @@
       {{ end }}
   
     </ul>
-    <div class="tab-content" id="myTabContent">
+    <div class="tab-content " id="myTabContent">
       {{ range  $index, $element := .prices  }}
       <div class="tab-pane fade {{ if eq $index 0 }} show active{{ end }}" id="nav-{{- $index -}}" role="tabpanel" aria-labelledby="nav-{{- $index -}}-tab">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col">
             <h3>{{ .title }}</h3>
           </div>
         </div>
-    
+     -->
         {{ range .prices }}  
           <div class="row">
             <div class="col-md-3">
-              {{ .text }}
+              {{ .title }}
             </div>
             <div class="col-md-3 d-flex">
               {{ $amount := "" }}
