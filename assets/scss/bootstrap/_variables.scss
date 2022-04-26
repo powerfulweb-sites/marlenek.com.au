@@ -1,7 +1,9 @@
 // misc variable dependencies
 $spacer: 1rem !default;
 $border-width:                1px !default;
-$enable-negative-margins: true;
+// $enable-negative-margins: true;
+
+
 // // scss-docs-start border-radius-variables
 // $border-radius:               .25rem !default;
 // $border-radius-sm:            .2rem !default;
@@ -79,6 +81,9 @@ $body-color:                $gray-900 !default;
 $body-text-align:           null !default;
 
 $border-color:                $gray-500;
+
+$component-active-color:      $white !default;
+$component-active-bg:         $primary !default;
 //
 // pagination
 $pagination-bg: $body-bg;
@@ -220,3 +225,31 @@ $nav-tabs-border-color:             $gray-500;
 $nav-tabs-link-active-color:        $gray-700;
 $nav-tabs-link-active-bg:           mix(black, $body-bg, 5%);
 $nav-tabs-link-active-border-color: $gray-500 $gray-500 $nav-tabs-link-active-bg;
+
+
+
+
+
+// $accordion-padding-y:                     1rem;
+// $accordion-padding-x:                     1.25rem;
+// $accordion-color:                         $body-color;
+// $accordion-bg:                            $body-bg;
+// $accordion-border-width:                   2px; //$border-width;
+$accordion-border-color:                  rgba($black, .425);
+// $accordion-border-radius:                 $border-radius;
+// $accordion-inner-border-radius:           subtract($accordion-border-radius, $accordion-border-width);
+
+// $accordion-body-padding-y:                $accordion-padding-y;
+// $accordion-body-padding-x:                $accordion-padding-x;
+
+// $accordion-button-padding-y:              $accordion-padding-y;
+// $accordion-button-padding-x:              $accordion-padding-x;
+// $accordion-button-color:                  $accordion-color;
+// $accordion-button-bg:                     $accordion-bg;
+// $accordion-transition:                    $btn-transition, border-radius .15s ease;
+
+$accordion-button-active-bg:         $orange; //     tint-color($component-active-bg, 90%);
+$accordion-button-active-color:  $black; //         $orange; //shade-color($primary, 0%);
+
+// $accordion-button-focus-border-color:     $input-focus-border-color;
+// $accordion-button-focus-box-shadow:       $btn-focus-box-shadow;
