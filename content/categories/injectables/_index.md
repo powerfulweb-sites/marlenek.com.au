@@ -1,6 +1,6 @@
 ---
 title: Injectables
-images: [service2.jpg]
+images: [picture1.jpeg]
 weight: 15
 menu: main
 ---

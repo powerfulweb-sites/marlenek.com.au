@@ -3,8 +3,9 @@ title: Combination Brows
 weight: 30
 summary: null
 images:
-  - service2.jpg
-  - service1.jpg
+  - picture1.jpeg
+  - picture2.jpeg
+
 categories:
   - tatooing
 prices:

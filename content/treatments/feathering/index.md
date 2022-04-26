@@ -3,8 +3,8 @@ title: Feathering / Microblading Brows
 weight: 20
 summary: null
 images:
-  - service2.jpg
-  - service1.jpg
+  - picture1.jpeg
+  - picture2.jpeg
 categories:
   - tatooing
 prices:

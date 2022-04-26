@@ -6365,7 +6365,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   color: #212529;
   text-align: left;
-  background-color: #f6f1eb;
+  background-color: #eae5df;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;

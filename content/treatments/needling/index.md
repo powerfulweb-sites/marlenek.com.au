@@ -3,8 +3,8 @@ title: Skin Needling / Micro Needling
 weight: 20
 summary: null
 images:
-  - service1.jpg
-  - service2.jpg
+  - photo1.jpeg
+  - photo2.jpeg
 categories:
   - skin
 prices:

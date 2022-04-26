@@ -3,8 +3,8 @@ title: Eye Liner
 weight: 50
 summary: null
 images:
-  - service2.jpg
-  - service1.jpg
+  - photo1.jpeg
+  - photo2.jpeg
 categories:
   - tatooing
 prices:

@@ -4,8 +4,8 @@ weight: 70
 summary: Price will be determined on consult, generally prices start from
   $500-$4000. We also offer an hourly rate.
 images:
-  - service1.jpg
-  - service2.jpg
+  - photo1.jpeg
+  - photo2.jpeg
 categories:
   - scalp
 ---

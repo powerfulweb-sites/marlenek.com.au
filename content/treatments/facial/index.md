@@ -3,8 +3,8 @@ title: Extraction Facials
 weight: 60
 summary: null
 images:
-  - service1.jpg
-  - service2.jpg
+  - picture1.jpeg
+  - picture2.jpeg
 categories:
   - skin
 prices:

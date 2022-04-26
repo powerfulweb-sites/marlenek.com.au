@@ -1,6 +1,6 @@
 ---
 title: Skin Treatments
-images: [service1.jpg]
+images: [picture1.jpeg]
 weight: 20
 menu: main
 ---

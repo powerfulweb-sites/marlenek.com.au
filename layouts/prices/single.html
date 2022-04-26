@@ -11,23 +11,29 @@
           </button>
         </h2>
         <div id="collapse{{- $index -}}" class="accordion-collapse collapse{{ if eq $index 0 }} show{{end}}" aria-labelledby="heading-{{- $index -}}" data-bs-parent="#accordionPrices">
-          <div class="accordion-body">
-            {{ range .prices }}  
-            <div class="row">
-              <div class="col-md-3">
-                {{ .title }}
-              </div>
-              <div class="col-md-3 d-flex">
-                {{ $amount := "" }}
-                {{ if eq (printf "%T" .amount) "int" }}
-                  {{ $amount = printf "$%.2f" (float .amount) }}
-                {{ else if eq (printf "%T" .amount) "string"}}
-                  {{ $amount = .amount }}
-                {{ end }}
-                <span class="ms-auto">{{  $amount }}</span>
-              </div>
-            </div>
+          <div class="accordion-body p-0">
+            <table class="table mb-0">
+              <!-- <thead>
+                <tr>
+                  <th scope="col">Treatment</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead> -->
+              <tbody>
+              {{ range .prices }}  
+                <tr>
+                  <td>{{ .title }}</td>
+                  <td>   {{- $amount := "" -}}
+                    {{- if eq (printf "%T" .amount) "int" -}}
+                      {{- $amount = printf "$%.2f" (float .amount) -}}
+                    {{- else if eq (printf "%T" .amount) "string" -}}
+                      {{- $amount = .amount -}}
+                    {{- end -}}
+                    {{  $amount }}</td>
+                </tr>
           {{ end }}
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

@@ -5,12 +5,15 @@
       <h1 class="text-light my-5">{{ .Site.Title | upper }}</h1>
     </div>
     <div class="col-md-6 g-0">
-      {{- $heroImg := .Resources.GetMatch "hero.jpg" -}}
-      <img class="img-fluid" src="{{ $heroImg.RelPermalink }}" alt="{{ .Site.Title }}" title="{{ .Site.Title }}">
+    {{ if .Params.images }}
+      {{- $heroImg := print (.Resources.GetMatch (index .Params.images 0)) -}}
+      {{ $dict := (dict "src" $heroImg "page" . "title" .Title "fillRatio" (slice 3 2) "widths" (slice 600 900) ) }}
+      {{ partial "image" $dict }}
+    {{ end }}
     </div>
   </div>
 
-  <div class="row row-cols-2 row-cols-md-3 services mb-3 d-flex justify-content-center">
+  <div class="row row-cols-1 row-cols-md-3 services mb-3 d-flex justify-content-center">
     {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
     {{ with .Page }}
     {{ $ctx := .}}
@@ -18,12 +21,12 @@
       <div class="card h-100">
         <div class="card-img">
           {{ with .Page }}
-          {{ if .Params.images }}
-          {{- $serviceImg := .Resources.GetMatch (index .Params.images 0) -}}
-          <img class="img-fluid" src="{{ $serviceImg.RelPermalink }}" alt="{{ $ctx.Name }}" title="{{ $ctx.Name }}">
+            {{ if .Params.images }}
+              {{- $serviceImg := print (.Resources.GetMatch (index .Params.images 0)) -}}
+              {{ $dict := (dict "src" $serviceImg "page" . "title" .Title "fillRatio" (slice 3 2) "widths" (slice 600 900) ) }}
+              {{ partial "image" $dict }}
+            {{ end }}
           {{ end }}
-          {{ end }}
-
         </div>
         <div class="card-body">
           <h2 class="card-title h4">

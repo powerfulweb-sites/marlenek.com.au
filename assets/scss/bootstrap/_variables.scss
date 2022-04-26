@@ -233,7 +233,7 @@ $nav-tabs-link-active-border-color: $gray-500 $gray-500 $nav-tabs-link-active-bg
 // $accordion-padding-y:                     1rem;
 // $accordion-padding-x:                     1.25rem;
 // $accordion-color:                         $body-color;
-// $accordion-bg:                            $body-bg;
+$accordion-bg:                            $body-bg;
 // $accordion-border-width:                   2px; //$border-width;
 $accordion-border-color:                  rgba($black, .425);
 // $accordion-border-radius:                 $border-radius;
@@ -244,8 +244,8 @@ $accordion-border-color:                  rgba($black, .425);
 
 // $accordion-button-padding-y:              $accordion-padding-y;
 // $accordion-button-padding-x:              $accordion-padding-x;
-// $accordion-button-color:                  $accordion-color;
-// $accordion-button-bg:                     $accordion-bg;
+//$accordion-button-color:                  ;//$accordion-color;
+$accordion-button-bg:                     shade-color($accordion-bg, 5%);
 // $accordion-transition:                    $btn-transition, border-radius .15s ease;
 
 $accordion-button-active-bg:         $orange; //     tint-color($component-active-bg, 90%);

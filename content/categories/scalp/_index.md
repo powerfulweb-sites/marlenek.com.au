@@ -1,6 +1,6 @@
 ---
 title: Scalp Pigmentation
-images: [service2.jpg]
+images: [photo2.jpeg]
 weight: 30
 menu: main
 ---

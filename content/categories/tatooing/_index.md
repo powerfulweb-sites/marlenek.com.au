@@ -1,6 +1,6 @@
 ---
 title: Cosmetic Tattooing
-images: [service2.jpg]
+images: [picture1.jpeg]
 weight: 10
 menu: main
 ---

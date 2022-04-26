@@ -4,8 +4,17 @@
     {{ if gt (len .Pages) 1 }}
     {{ range $i, $e := .Pages -}}
     <article>
-      <div class="card m-3">
+      <div class="card my-4 mx-3">
         <div class="row">
+          <div class="col-md-4 {{ if modBool $i 2 }}order-md-last{{ end }}">
+            <div class="card-img">
+              {{ if .Params.images }}
+              {{ $img := index .Params.images 0 }}
+              {{ $dict := (dict "src" $img "page" . "title" .Title "widths" (slice 600 900)) }}
+              {{ partial "image" $dict }}
+              {{ end }}
+            </div>
+          </div>
           <div class="col-md-8">
             <div class="card-body">
               <div class="card-title">
@@ -16,15 +25,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 {{ if modBool $i 2 }}order-md-first{{ end }}">
-            <div class="card-img">
-              {{ if .Params.images }}
-              {{ $img := index .Params.images 0 }}
-              {{ $dict := (dict "src" $img "page" . "title" .Title) }}
-              {{ partial "image" $dict }}
-              {{ end }}
-            </div>
-          </div>
+          
         </div>
       </div>
     </article>
