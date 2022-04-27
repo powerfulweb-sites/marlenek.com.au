@@ -7,7 +7,7 @@
     <div class="col-md-6 g-0">
     {{ if .Params.images }}
       {{- $heroImg := print (.Resources.GetMatch (index .Params.images 0)) -}}
-      {{ $dict := (dict "src" $heroImg "page" . "title" .Title "fillRatio" (slice 3 2) "widths" (slice 600 900) ) }}
+      {{ $dict := (dict "src" $heroImg "page" . "title" .Title  "widths" (slice 600 900) ) }}
       {{ partial "image" $dict }}
     {{ end }}
     </div>
