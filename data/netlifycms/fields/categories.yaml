@@ -4,6 +4,7 @@ widget: select
 multiple: true
 options: 
 - {label: Costmetic Tatooing , value: tatooing}
+- {label: Injectables , value: injectables}
 - {label: Skin Treatments , value: skin}
 - {label: Scalp Pigmentation, value: scalp}
 - {label: Beauty Treatments, value: beauty}
