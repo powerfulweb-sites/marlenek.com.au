@@ -14,5 +14,6 @@ editor:
 
 collections:
 - import collection treatments
+- import collection categories
 - import collection pages
 - import collection data
