@@ -3,7 +3,7 @@ title: Combination Brows
 weight: 30
 summary: null
 images:
-  - picture1.jpeg
+  - picture3.jpeg
   - picture2.jpeg
 
 categories:

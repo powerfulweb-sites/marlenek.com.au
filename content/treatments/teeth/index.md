@@ -3,7 +3,7 @@ title: Teeth Whitening
 weight: 30
 summary: null
 images:
-  - photo1.jpeg
+  - photo3.jpeg
   - photo2.jpeg
 categories:
   - beauty

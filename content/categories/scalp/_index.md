@@ -1,7 +1,7 @@
 ---
 title: Scalp Pigmentation
-images: [photo2.jpeg]
+images: [photo3.jpeg]
 weight: 30
 menu: main
 ---
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quibusdam accusamus officiis architecto velit sit praesentium eum laudantium qui quia? Hic dignissimos enim quo sunt repellat sequi ad? Fuga, sed.
+Scalp Micropigmentation is fast becoming the most popular hair loss solution and is rapidly gaining global Recognition and exposure. Scalp pigmentation (SMP) is similar to tradition tattooing, however scalp pigmentation is a more intricate and complex procedure.

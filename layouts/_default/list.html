@@ -10,7 +10,7 @@
             <div class="card-img">
               {{ if .Params.images }}
               {{ $img := index .Params.images 0 }}
-              {{ $dict := (dict "src" $img "page" . "title" .Title "widths" (slice 600 900)) }}
+              {{ $dict := (dict "src" $img "page" . "title" .Title "widths" (slice 600 900) "fillRatio" (slice 3 2)) }}
               {{ partial "image" $dict }}
               {{ end }}
             </div>
