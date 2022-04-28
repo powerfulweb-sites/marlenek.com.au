@@ -1,7 +1,8 @@
 ---
 title: Led Light Colagen Therapy
 weight: 80
-summary: null
+summary: "Our Led Light Therapy enhances rejuvenates and restores the texture on
+  your skin. "
 images:
   - picture1.jpeg
   - picture2.jpeg
