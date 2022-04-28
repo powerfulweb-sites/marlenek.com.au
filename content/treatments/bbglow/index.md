@@ -1,7 +1,7 @@
 ---
 title: BBGlow
 weight: 30
-summary: null
+summary: BB glow is  Korean skincare procedure
 images:
   - photo1.jpeg
   - photo2.jpeg
