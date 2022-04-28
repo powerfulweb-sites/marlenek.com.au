@@ -2,7 +2,10 @@
 title: BBGlow
 weight: 30
 summary: BB glow is  Korean skincare procedureThe ingredients in the booster
-  serum are worked into the skin via a painless method.
+  serum are worked into the skin via a painless method.These ingredients will
+  encourage hydration, regeneration and collagen production, it is designed to
+  leave your skin glowing and fresh. The bbglow pigment just like a bbglow cream
+  is also worked into the skin .
 images:
   - photo1.jpeg
   - photo2.jpeg
@@ -15,9 +18,9 @@ prices:
 ---
 
 
-These ingredients will encourage hydration, regeneration and collagen production, it is designed to leave your skin glowing and fresh. The bbglow pigment just like a bbglow cream is also worked into the skin . This helps minimise and improve the look of dark spots , open pores, helps to even out skin tones,and generally brightens the skin . The bbglow treatment uses serums made with all natural ingredients to improve the look and feel of your skin fast, with visible improvements seen between 4 to 6 weeks .
+ This helps minimise and improve the look of dark spots , open pores, helps to even out skin tones,and generally brightens the skin . The BBglow treatment uses serums made with all natural ingredients to improve the look and feel of your skin fast, with visible improvements seen between 4 to 6 weeks .
 
-Skin will continue to regenerate after the bbglow treatment is done due to the ingredients in the serum.
+Skin will continue to regenerate after the BBglow treatment is done due to the ingredients in the serum.
 
 ## How many treatments will I need?
 
