@@ -5,11 +5,11 @@ type: "HealthAndBeautyBusiness"
 images: ["image.png"]
 logo: "logo.png"
 social:
-  twitter:
+  instagram:
     # account is for twitter cards, include @
     account: "@facebymarlenek"
     url: https://www.instagram.com/facebymarlenek/
-    icon: icons/bootstrap/twitter
+    icon: icons/bootstrap/instagram
     weight: 10
   facebook:
     url: https://www.facebook.com/FaceByMarleneK/
