@@ -1,7 +1,8 @@
 ---
 title: Injectables
-images: [picture1.jpeg]
+images:
+  - picture1.jpeg
 weight: 15
 menu: main
 ---
-Cosmetic injectables are cosmetic procedures which are only performed by a doctor or nurse. Cosmetic injectables are injected into your skin to change your appearance - reducing the fine lines and wrinkles. Cosmetic injectables are also used to enhance your lips with lip fillers.
+Face by Marlene K offer cosmetic injectable.  We us only quality cosmetic injectables .Our Nurse Sheida is one of the best in the industry . With year of experience we are confident she will achieve the look and enhancement you are looking for .
