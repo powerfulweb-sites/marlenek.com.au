@@ -1,8 +1,8 @@
 ---
 title: BBGlow
 weight: 30
-summary: BB glow is  Korean skincare procedureThe ingredients in the booster
-  serum are worked into the skin via a painless method.These ingredients will
+summary: BB glow is a Korean skincare procedure . The ingredients in the booster
+  serum are worked into the skin via a painless method. These ingredients will
   encourage hydration, regeneration and collagen production, it is designed to
   leave your skin glowing and fresh. The bbglow pigment just like a bbglow cream
   is also worked into the skin .
