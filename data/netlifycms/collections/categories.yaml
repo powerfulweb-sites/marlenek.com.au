@@ -1,8 +1,8 @@
 name: "shop_categories"
-label: "Treatment categories"
-label_singular: "Treatment category"
+label: "Home page text"
+label_singular: "Homepage text"
 folder: "content/categories"
-create: true
+create: false
 delete: false
 #only for creation
 path: "{{id}}/_index.md"
