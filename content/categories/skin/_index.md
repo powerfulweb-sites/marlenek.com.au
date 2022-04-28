@@ -1,7 +1,8 @@
 ---
 title: Skin Treatments
-images: [picture1.jpeg]
+images:
+  - picture1.jpeg
 weight: 20
 menu: main
 ---
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, cum ex amet reiciendis, modi quidem accusamus commodi nulla molestias nihil voluptatum quaerat similique placeat architecto aperiam id sequi magnam eum.
+At Face by Marlene k you can treat yourself to a skin treatment suited to your needs. We offer a wide range of skin treatments. weather it be a treatment for problem skin, wrinkles or just a relaxing facial. We offer skin therapy treatments that address all skin concerns and not to mention affordable prices.

@@ -1,7 +1,10 @@
 ---
 title: Skin Needling / Micro Needling
 weight: 20
-summary: null
+summary: "Skin needling is Collagen induction therapy. Which means it is
+  generating new collagen, for smoother younger firmer looking skin. Other
+  benefits for skin needling are:  acne scaring, shrinks pores, pigmentation,
+  sun spots, reduces fine lines and wrinkles."
 images:
   - photo1.jpeg
   - photo2.jpeg
