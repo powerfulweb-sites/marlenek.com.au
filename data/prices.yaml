@@ -19,17 +19,17 @@ prices:
         amount: 400
   - title: Cosmetic Tattooing
     prices:
-      - title: Eyebrow Combination
+      - title: Eyebrows Combination
         amount: 650
-      - title: Feathering / Microblading Eyebrows
+      - title: Eyebrows Feathering / Microblading
         amount: "450"
-      - title: "Ombre Eyebrows "
+      - title: "Eyebrows Ombre "
         amount: "450"
       - title: Lip Blush
         amount: "499"
-      - title: Top Eye Liner
+      - title: " Eye Liner top "
         amount: "250"
-      - title: Bottom Eye Liner
+      - title: " Eye Liner bottom"
         amount: "200"
   - title: Beauty Treatments
     prices:
