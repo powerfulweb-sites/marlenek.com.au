@@ -31,6 +31,14 @@ prices:
         amount: "250"
       - title: " Eye Liner bottom"
         amount: "200"
+      - title: Lip Liner
+        amount: "250"
+      - title: Lip Blend
+        amount: "350"
+      - title: Beauty Spot
+        amount: "69"
+      - title: Eyelash Enhancement
+        amount: "180"
   - title: Beauty Treatments
     prices:
       - title: Eyelash Extensions
