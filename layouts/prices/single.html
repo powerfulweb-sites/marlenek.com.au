@@ -23,13 +23,12 @@
               {{ range .prices }}  
                 <tr>
                   <td>{{ .title }}</td>
-                  <td>   {{- $amount := "" -}}
-                    {{- if eq (printf "%T" .amount) "int" -}}
-                      {{- $amount = printf "$%.2f" (float .amount) -}}
-                    {{- else if eq (printf "%T" .amount) "string" -}}
-                      {{- $amount = .amount -}}
-                    {{- end -}}
-                    {{  $amount }}</td>
+                  <td>   {{- $amount := .amount -}}
+                    {{- if findRE "^[0-9]+$" $amount }}
+                      {{- $amount = int .amount}}
+                      {{- $amount = printf "$%.2f" (float $amount) -}}
+                    {{ end }}
+                    {{ $amount }}</td>
                 </tr>
           {{ end }}
               </tbody>
