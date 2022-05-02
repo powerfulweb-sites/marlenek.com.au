@@ -13,13 +13,11 @@
         <div id="collapse{{- $index -}}" class="accordion-collapse collapse{{ if eq $index 0 }} show{{end}}" aria-labelledby="heading-{{- $index -}}" data-bs-parent="#accordionPrices">
           <div class="accordion-body p-0">
             <table class="table mb-0">
-              <!-- <thead>
-                <tr>
-                  <th scope="col">Treatment</th>
-                  <th scope="col">Price</th>
-                </tr>
-              </thead> -->
               <tbody>
+                <colgroup>
+                  <col>
+                  <col style="width:20%;">
+                </colgroup>
               {{ range .prices }}  
                 <tr>
                   <td>{{ .title }}</td>
