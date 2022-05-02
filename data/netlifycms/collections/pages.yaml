@@ -2,6 +2,14 @@ name: "pages"
 label: "Pages"
 create: false
 files:
+- name: "home"
+  label: "Home"
+  file: "content/_index.md"
+  fields:
+    - import field title 
+    - import field summary
+    - import field images
+    - import field body
 - name: "about"
   label: "About"
   file: "content/pages/about/index.md"

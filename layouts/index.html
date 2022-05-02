@@ -1,61 +1,59 @@
 {{ define "main" }}
 <div class="container-fluid">
-  <div class="row hero pb-5">
-    <div class="col-md-6 bg-dark d-flex align-items-center justify-content-center">
-      <h1 class="text-light my-5">{{ .Site.Title | upper }}</h1>
+  <section class="section hero">
+    <div class="row mb-3">
+      <div class="col-md-6 bg-dark d-flex align-items-center justify-content-center">
+        <h1 class="text-light my-5">{{ .Site.Title | upper }}</h1>
+      </div>
+      <div class="col-md-6 g-0">
+        {{ if .Params.images }}
+        {{- $heroImg := print (.Resources.GetMatch (index .Params.images 0)) -}}
+        {{ $dict := (dict "src" $heroImg "page" . "title" .Title "widths" (slice 600 900) ) }}
+        {{ partial "image" $dict }}
+        {{ end }}
+      </div>
     </div>
-    <div class="col-md-6 g-0">
-    {{ if .Params.images }}
-      {{- $heroImg := print (.Resources.GetMatch (index .Params.images 0)) -}}
-      {{ $dict := (dict "src" $heroImg "page" . "title" .Title  "widths" (slice 600 900) ) }}
-      {{ partial "image" $dict }}
-    {{ end }}
-    </div>
-  </div>
-
-  <div class="row row-cols-1 row-cols-md-3 services mb-3 d-flex justify-content-center">
-    {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
-    {{ with .Page }}
-    {{ $ctx := .}}
-    <div class="col pb-3">
-      <div class="card h-100">
-        <div class="card-img">
-          {{ with .Page }}
-            {{ if .Params.images }}
-              {{- $serviceImg := print (.Resources.GetMatch (index .Params.images 0)) -}}
-              {{ $dict := (dict "src" $serviceImg "page" . "title" .Title "fillRatio" (slice 3 2) "widths" (slice 600 900) ) }}
-              {{ partial "image" $dict }}
-            {{ end }}
-          {{ end }}
-        </div>
-        <div class="card-body">
-          <h2 class="card-title h4">
-            <a class="text-decoration-none stretched-link" href="{{ .RelPermalink }}">{{ .Name }}</a>
-          </h2>
-          <div class="card-text">{{ .Page.Summary }}</div>
+  </section>
+  <section class="section blurb">
+    <div class="row">
+      <div class="col">
+        <div class=" bg-light">
+          {{ .Content }}
         </div>
       </div>
     </div>
-    {{ end }}
-    {{ end }}
-  </div>
-
-
-
-
-
-  <!-- {{- .Content -}} -->
-
+  </section>
+  <section class="section services">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 d-flex justify-content-center">
+      {{ range sort site.Taxonomies.categories "Page.Params.weight" }}
+      {{ with .Page }}
+      {{ $ctx := .}}
+      <div class="col pb-3">
+        <div class="card h-100">
+          <div class="card-img">
+            {{ with .Page }}
+            {{ if .Params.images }}
+            {{- $serviceImg := print (.Resources.GetMatch (index .Params.images 0)) -}}
+            {{ $dict := (dict "src" $serviceImg "page" . "title" .Title "fillRatio" (slice 3 2) "widths" (slice 600 900)
+            )
+            }}
+            {{ partial "image" $dict }}
+            {{ end }}
+            {{ end }}
+          </div>
+          <div class="card-body">
+            <h2 class="card-title h4">
+              <a class="text-decoration-none stretched-link" href="{{ .RelPermalink }}">{{ .Name }}</a>
+            </h2>
+            <div class="card-text">{{ .Page.Summary }}</div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </section>
 </div>
-
-
-
-
-
-
-
-
-
 <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
   if (window.netlifyIdentity) {
