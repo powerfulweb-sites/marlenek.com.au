@@ -1,7 +1,8 @@
 ---
 title: Fibro Blast Plasmawave
 weight: 40
-summary: null
+summary: Plasma fibroblast skin tightening treatment is  a relatively novel and
+  growing minimally invasive esthetic skin procedure.
 images:
   - picture1.jpeg
   - picture2.jpeg

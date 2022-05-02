@@ -1,83 +1,85 @@
 prices:
-- title: Plasma Fibroblast
-  prices:
-  - title: Upper Eyelids
-    amount: 500
-  - title: Lower Eyelids
-    amount: 350
-  - title: Brow Lift
-    amount: 300
-  - title: Crows Feet
-    amount: 350
-  - title: Top Lip
-    amount: 300
-  - title: Bottom Lip
-    amount: 300
-  - title: Forehead
-    amount: 600
-  - title: Nasolabial
-    amount: 400
-
-- title: Cosmetic Tattooing
-  prices:
-  - title: Eyebrow Combination
-    amount: 650
-  - title: Eye-liner top
-    amount: 250
-  - title: Eye-liner bottom
-    amount: 200
-  - title: Feathering / Microblading Brows
-    amount: 450
-  - title: Lip Blush
-    amount: 499
-  - title: Ombre Brows
-    amount: 450
-
-- title: Beauty Treatments
-  prices:
-  - title: Eyelash Extensions
-    amount: 140
-  - title: 2 Week Infill
-    amount: 80
-  - title: 3 Week Infill
-    amount: 90
-  - title: 4 week Infill
-    amount: POC
-  - title: Spray Tan
-    amount: 35
-  - title: Teeth Whitening
-    amount: 150
-  - title: Lash lift 
-    amount: 65
-  - title: Henna brow 
-    amount: 35
-  - title: Eyebrow tint 
-    amount: 10
-  - title: Eyelash tint 
-    amount: 15
-
-- title: Skin Treatments
-  prices:
-  - title: Extraction Facial
-    amount: 69
-  - title: Led Light Colagen Therapy
-    amount: 30
-  - title: Microdermabrasion
-    amount: 35
-  - title: Skin Needling / Micro Needling
-    amount: 180
-  - title: TCA Peel
-    amount: 60
-  - title: BB Glow Treatment
-    amount: 150
-  - amount: 150
-    title: BB GLOW
-
-- title: Waxing
-  prices:
-  - title: Lip wax 
-    amount: 5
-  - title: Eyebrow 
-    amount: 15
-  - title: Eyebrow wax shape 
-    amount: 20
+  - title: Plasma Fibroblast
+    prices:
+      - title: Upper Eyelids
+        amount: 500
+      - title: Lower Eyelids
+        amount: 350
+      - title: Brow Lift
+        amount: 300
+      - title: Crows Feet
+        amount: 350
+      - title: Top Lip
+        amount: 300
+      - title: Bottom Lip
+        amount: 300
+      - title: Forehead
+        amount: 600
+      - title: Nasolabial
+        amount: 400
+  - title: Cosmetic Tattooing
+    prices:
+      - title: Eyebrows Combination
+        amount: 650
+      - title: Eyebrows Feathering / Microblading
+        amount: "450"
+      - title: "Eyebrows Ombre "
+        amount: "450"
+      - title: Lip Blush
+        amount: "499"
+      - title: " Eye Liner top "
+        amount: "250"
+      - title: " Eye Liner bottom"
+        amount: "200"
+      - title: Lip Liner
+        amount: "250"
+      - title: Lip Blend
+        amount: "350"
+      - title: Beauty Spot
+        amount: "69"
+      - title: Eyelash Enhancement
+        amount: "180"
+  - title: Beauty Treatments
+    prices:
+      - title: Eyelash Extensions
+        amount: 140
+      - title: 2 Week Infill
+        amount: 80
+      - title: 3 Week Infill
+        amount: 90
+      - title: 4 week Infill
+        amount: POC
+      - title: Spray Tan
+        amount: 35
+      - title: Teeth Whitening
+        amount: 150
+      - title: Lash lift
+        amount: 65
+      - title: Henna brow
+        amount: 35
+      - title: Eyebrow tint
+        amount: 10
+      - title: Eyelash tint
+        amount: 15
+  - title: Skin Treatments
+    prices:
+      - title: Extraction Facial
+        amount: 69
+      - title: Led Light Colagen Therapy
+        amount: 30
+      - title: Microdermabrasion
+        amount: 35
+      - title: Skin Needling / Micro Needling
+        amount: 180
+      - title: TCA Peel
+        amount: 60
+      - amount: 150
+        title: BB GLOW
+  - title: Waxing
+    prices:
+      - title: Lip wax
+        amount: 5
+      - title: Eyebrow
+        amount: 15
+      - title: Eyebrow wax shape
+        amount: 20
