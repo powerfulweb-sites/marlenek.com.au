@@ -2954,7 +2954,7 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 246, 241, 235;
+  --bs-body-bg-rgb: 243, 234, 225;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -2963,7 +2963,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #f6f1eb; }
+  --bs-body-bg: #f3eae1; }
 
 *,
 *::before,
@@ -3381,7 +3381,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #f6f1eb;
+  background-color: #f3eae1;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -4436,7 +4436,7 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #f6f1eb;
+  background-color: #f3eae1;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   appearance: none;
@@ -4451,7 +4451,7 @@ progress {
       cursor: pointer; }
   .form-control:focus {
     color: #212529;
-    background-color: #f6f1eb;
+    background-color: #f3eae1;
     border-color: #d9bfb3;
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(179, 127, 103, 0.25); }
@@ -4573,7 +4573,7 @@ textarea.form-control-lg {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #f6f1eb;
+  background-color: #f3eae1;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
@@ -4626,7 +4626,7 @@ textarea.form-control-lg {
   height: 1em;
   margin-top: 0.25em;
   vertical-align: top;
-  background-color: #f6f1eb;
+  background-color: #f3eae1;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -4701,9 +4701,9 @@ textarea.form-control-lg {
   .form-range:focus {
     outline: 0; }
     .form-range:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #f6f1eb, 0 0 0 0.25rem rgba(179, 127, 103, 0.25); }
+      box-shadow: 0 0 0 1px #f3eae1, 0 0 0 0.25rem rgba(179, 127, 103, 0.25); }
     .form-range:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #f6f1eb, 0 0 0 0.25rem rgba(179, 127, 103, 0.25); }
+      box-shadow: 0 0 0 1px #f3eae1, 0 0 0 0.25rem rgba(179, 127, 103, 0.25); }
   .form-range::-moz-focus-outer {
     border: 0; }
   .form-range::-webkit-slider-thumb {
@@ -5798,8 +5798,8 @@ textarea.form-control-lg {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #495057;
-    background-color: #eae5df;
-    border-color: #adb5bd #adb5bd #eae5df; }
+    background-color: #e7ded6;
+    border-color: #adb5bd #adb5bd #e7ded6; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-left-radius: 0;
@@ -6365,7 +6365,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   color: #212529;
   text-align: left;
-  background-color: #eae5df;
+  background-color: #e7ded6;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -6405,7 +6405,7 @@ textarea.form-control-lg {
   margin-bottom: 0; }
 
 .accordion-item {
-  background-color: #f6f1eb;
+  background-color: #f3eae1;
   border: 1px solid rgba(0, 0, 0, 0.425); }
   .accordion-item:first-of-type {
     border-top-left-radius: 0.25rem;
@@ -6470,7 +6470,7 @@ textarea.form-control-lg {
   display: block;
   color: #b37f67;
   text-decoration: none;
-  background-color: #f6f1eb;
+  background-color: #f3eae1;
   border: 1px solid #adb5bd;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
@@ -6500,7 +6500,7 @@ textarea.form-control-lg {
 .page-item.disabled .page-link {
   color: #6c757d;
   pointer-events: none;
-  background-color: #f6f1eb;
+  background-color: #f3eae1;
   border-color: #adb5bd; }
 
 .page-link {
@@ -8137,5 +8137,8 @@ textarea.form-control-lg {
 .img-fluid {
   width: 100% !important;
   height: auto; }
+
+.section.blurb p {
+  margin: 0; }
 
 /*# sourceMappingURL=index..css.map */

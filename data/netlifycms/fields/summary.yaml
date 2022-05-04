@@ -1,5 +1,5 @@
 name: "summary"
 label: "Summary"
-widget: "string"
+widget: "text"
 hint: Max 120-150 characters
 required: false
