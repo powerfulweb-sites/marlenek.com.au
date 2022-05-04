@@ -2,7 +2,7 @@
 {{ with .Site.Data.prices }}
 <div class="row">
   <div class="col">
-    <div class="accordion" id="accordionPrices">
+    <div class="accordion pb-3" id="accordionPrices">
       {{ range  $index, $element := .prices  }}
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading-{{- $index -}}">
@@ -35,6 +35,9 @@
         </div>
       </div>
       {{ end }}
+    </div>
+    <div>
+      *POC - Price on Consult. Due the nature of the procedure we are only able to provide the price after a consulation.
     </div>
   </div>
 </div>
