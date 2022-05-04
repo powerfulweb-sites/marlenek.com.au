@@ -1,7 +1,7 @@
 ---
 title: Led Light Colagen Therapy
 weight: 80
-summary: "Our Led Light Therapy enhances rejuvenates and restores the texture on
+summary: "Our Led Light Therapy enhances rejuvenates and restores the texture of
   your skin. "
 images:
   - picture1.jpeg
@@ -13,7 +13,9 @@ prices:
       text: Led Light Colagen Therapy
       amount: 30
 ---
-## Benefits
+Our Led Light Therapy enhances rejuvenates and restores the texture of your skin.
+
+**Benefits include:**
 
 * Evens out the skin tone
 

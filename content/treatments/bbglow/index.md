@@ -16,7 +16,7 @@ prices:
       amount: 150
       text: BB GLOW
 ---
-This helps minimise and improve the look of dark spots , open pores, helps to even out skin tones, and generally brightens the skin . The BBglow treatment uses serums made with all natural ingredients to improve the look and feel of your skin fast, with visible improvements seen between 4 to 6 weeks .
+This helps minimise and improve the look of dark spots , open pores, helps to even out skin tones, and generally brightens the skin. The BBglow treatment uses serums made with all natural ingredients to improve the look and feel of your skin fast, with visible improvements seen between 4 to 6 weeks.
 
 Skin will continue to regenerate after the BBglow treatment is done due to the ingredients in the serum.
 
@@ -26,4 +26,4 @@ You can have one treatment for that glow and deep deep facial treatment. However
 
 ## Down time
 
-No down time
+No down time.

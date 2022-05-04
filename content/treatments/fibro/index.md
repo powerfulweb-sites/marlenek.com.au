@@ -1,42 +1,15 @@
 ---
 title: Fibro Blast Plasmawave
 weight: 40
-summary: Plasma fibroblast skin tightening treatment is  a relatively novel and
-  growing minimally invasive esthetic skin procedure.
+summary: Plasma fibroblast skin tightening treatment is a relatively new and
+  growing, minimally invasive aesthetic skin procedure.
 images:
   - picture1.jpeg
   - picture2.jpeg
 categories:
   - skin
-prices:
-  - price:
-      text: Upper Eyelids
-      amount: 500
-  - price:
-      text: Lower Eyelids
-      amount: 350
-  - price:
-      text: Brow Lift
-      amount: 300
-  - price:
-      text: Crows Feet
-      amount: 350
-  - price:
-      text: Top Lip
-      amount: 300
-  - price:
-      text: Bottom Lip
-      amount: 300
-  - price:
-      text: Forehead
-      amount: 600
-  - price:
-      text: Nasolabial
-      amount: 400
 ---
 ## What is Fibro Blast Plasmawave ?
-
-## Indications:
 
 The Plasmawave plasma device creates genuine plasma output not an electrical current. This plasma arc permits precise ‘soft surgery’ such as skin tag and mole removal as well as effective non-surgical blepharoplasty (eye lid correction) and other treatments using sublimation, fulguration and electrocoagulation.
 
@@ -48,4 +21,4 @@ The Plasma Wave machine conductor tip creates a tiny plasma flash from the tip (
 
 The principle is to ionise gases in the air to create a small electrical arc, similar to a tiny lightning bolt, with which the areas affected by aesthetic problems may be treated, without unwanted damage to surrounding areas.
 
- The plasma causes instant contraction and tightening of skin fibers causing shortening and tightening of skin fibers, thus resulting in the reduction of the skin surface.
+The plasma causes instant contraction and tightening of skin fibers causing shortening and tightening of skin fibers, thus resulting in the reduction of the skin surface.

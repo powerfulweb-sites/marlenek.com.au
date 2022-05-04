@@ -9,4 +9,5 @@ menu:
     weight: 80
     # name: About
 type: prices
+summary: At Face by Marlene K we provide the best, most up to date services, at competitive prices.
 ---
