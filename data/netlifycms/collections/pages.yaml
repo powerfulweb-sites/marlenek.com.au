@@ -19,3 +19,12 @@ files:
     - import field summary
     - import field images
     - import field body
+- name: "prices"
+  label: "Prices"
+  file: "content/pages/prices/index.md"
+  fields:
+    - import field title 
+    - import field draft
+    - import field summary
+    - import field images
+    - import field body
