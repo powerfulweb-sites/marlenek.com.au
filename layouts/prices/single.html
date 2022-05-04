@@ -1,9 +1,9 @@
 {{ define "main" }}
-{{ with .Site.Data.prices }}
+
 <div class="row">
   <div class="col">
     <div class="accordion pb-3" id="accordionPrices">
-      {{ range  $index, $element := .prices  }}
+      {{ range  $index, $element := .Site.Data.prices.prices  }}
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading-{{- $index -}}">
           <button class="accordion-button{{ if ne $index 0}} collapsed{{ end }}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{- $index -}}" aria-expanded="{{ if eq $index 0}}true{{ else }}false{{end}}" aria-controls="collapse{{- $index -}}">
@@ -37,9 +37,8 @@
       {{ end }}
     </div>
     <div>
-      *POC - Price on Consult. Due the nature of the procedure we are only able to provide the price after a consulation.
+      {{ .Content }}
     </div>
   </div>
 </div>
-{{ end }}
 {{ end }}
