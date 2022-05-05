@@ -8114,6 +8114,9 @@ textarea.form-control-lg {
 .navbar {
   background-color: #EDDAD3; }
 
+.container-fluid.footer, .footer.container-sm, .footer.container-md, .footer.container-lg, .footer.container-xl, .footer.container-xxl {
+  background-color: #EDDAD3; }
+
 .svg-font {
   font-size: inherit;
   color: inherit;
