@@ -3,7 +3,7 @@
 
 type: "HealthAndBeautyBusiness"
 images: ["image.png"]
-logo: "logo.png"
+logo: "logo-white.png"
 social:
   instagram:
     # account is for twitter cards, include @
