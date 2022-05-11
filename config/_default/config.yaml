@@ -9,7 +9,7 @@ enableEmoji: true
 enableGitInfo: false # does this default to false? delete??
 enableRobotsTXT: true
 
-# googleAnalytics: 
+googleAnalytics: "G-740YX0DXB1"
 
 # for xml output
 languageCode: "en-au"
