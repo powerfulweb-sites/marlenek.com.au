@@ -1,8 +1,8 @@
 name: data
 label: Site Configuration
 files:
-- name: params
-  label: Site Parameters
+- name: scripts
+  label: Header/Footer Inline Scripts
   file: config/params.yaml
   fields:
   - label: Header script 
