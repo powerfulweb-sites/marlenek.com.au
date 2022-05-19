@@ -1,6 +1,18 @@
 name: data
 label: Site Configuration
 files:
+- name: params
+  label: Site Parameters
+  file: config/params.yaml
+  fields:
+  - label: Header script 
+    name: headerScript
+    widget: code
+    default_language: JavaScript
+  - label: Footer script 
+    name: footerScript
+    widget: code
+    default_language: JavaScript
 - name: prices
   label: Prices
   label_singular: Price

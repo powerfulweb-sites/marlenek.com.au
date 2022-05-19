@@ -60,3 +60,7 @@ snipcart:
   key: NGUxMjlkZjUtNjAxNC00OGY3LWJjNWItOTRjMzkzZTk2NzU1NjM3Nzg4MDk4NTI5MjU1Njk5
   side: true # or false for full screen cart
   bootstrap: true # enables snipcart z-index css for bootstrap compatibility 
+
+
+headerScript: ""
+footerScript: ""
