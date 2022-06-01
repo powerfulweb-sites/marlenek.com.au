@@ -36,7 +36,7 @@
     "netlify-build": "Invoke-WebRequest -method POST -body \" \" -uri https://api.netlify.com/build_hooks/6257916d3c52761aa35a7367"
   },
   "devDependencies": {
-    "eslint": "^8.8.0",
+    "eslint": "^8.16.0",
     "markdownlint-cli": "^0.30.0",
     "npm-check": "^5.9.2",
     "standard-version": "^9.3.2",
