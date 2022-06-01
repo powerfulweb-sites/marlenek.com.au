@@ -1,22 +1,4 @@
 prices:
-  - title: Plasma Fibroblast
-    prices:
-      - title: Upper Eyelids
-        amount: 500
-      - title: Lower Eyelids
-        amount: 350
-      - title: Brow Lift
-        amount: 300
-      - title: Crows Feet
-        amount: 350
-      - title: Top Lip
-        amount: 300
-      - title: Bottom Lip
-        amount: 300
-      - title: Forehead
-        amount: 600
-      - title: Nasolabial
-        amount: 400
   - title: Cosmetic Tattooing
     prices:
       - title: Eyebrows Combination
@@ -83,3 +65,25 @@ prices:
         amount: 15
       - title: Eyebrow wax shape
         amount: 20
+  - title: Plasma Fibroblast
+    prices:
+      - title: Upper Eyelids
+        amount: 500
+      - title: Lower Eyelids
+        amount: 350
+      - title: Brow Lift
+        amount: 300
+      - title: Crows Feet
+        amount: 350
+      - title: Top Lip
+        amount: 300
+      - title: Bottom Lip
+        amount: 300
+      - title: Forehead
+        amount: 600
+      - title: Nasolabial
+        amount: 400
+  - title: Injectables
+    prices:
+      - title: All types
+        amount: POC
