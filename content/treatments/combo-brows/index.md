@@ -1,11 +1,12 @@
 ---
 title: Combination Brows
 weight: 30
-summary: null
+summary: >
+  Combination brows are when both techniques are put together the microblading
+  and the ombre. (shading). 
 images:
   - unnamed.jpg
   - picture2.jpeg
-
 categories:
   - tatooing
 prices:
@@ -13,4 +14,4 @@ prices:
       text: Eyebrow Combination
       amount: 650
 ---
-The two techniques put together the microblading and the ombre. It is a semi-permanent cosmetic tattoo performed on the eyebrows to enhance the eyebrows. It is a technique done with a digital tattoo machine also can be done manually. Pigment is embedded into the skin at a certain depth creating both shading and hair lines mimicking hair. This tattoo really emphasises eyebrows. If you want a touch more then the very natural microblading. Combination eyebrows is for you. The semi-permanent tattoo normally last anything from 18 month to 24 months depending on skin type and lifestyle.
+It is a semi-permanent cosmetic tattoo . This treatment is for those who want a little more then the natural look the more defined and full look. The microblading is done first to create the hair strokes .Then the shading is done through out the body of the brow to create  fullness and definition of  the brow and shape. The Semi-permanent tattoo normally last anything from 18  to 24 months depending on the skin type and lifestyle.
