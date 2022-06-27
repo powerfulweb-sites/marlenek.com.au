@@ -1,5 +1,5 @@
 ---
-title: Feathering / Microblading Brows
+title: " Microblading Eye Brows"
 weight: 20
 summary: null
 images:
