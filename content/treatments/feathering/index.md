@@ -1,5 +1,5 @@
 ---
-title: " Microblading Eye Brows"
+title: " Microblading Brows"
 weight: 20
 summary: null
 images:
