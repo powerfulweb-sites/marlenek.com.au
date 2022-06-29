@@ -12,6 +12,13 @@
 {{- $bodyClass := delimit (.Scratch.Get "class") " " -}}
 
 <body class="{{ $bodyClass }} d-flex flex-column min-vh-100">
+
+  <!-- Google Tag Manager (noscript) -->
+
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM367T4" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+
+  <!-- End Google Tag Manager (noscript) -->
   {{- if and .IsHome .Site.Params.alert -}}
   {{ partial "header/alert" . -}}
   {{- end -}}
