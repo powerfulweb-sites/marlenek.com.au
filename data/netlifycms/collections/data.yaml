@@ -1,20 +1,6 @@
 name: data
 label: Site Configuration
 files:
-- name: scripts
-  label: Header/Footer Inline Scripts
-  file: config/_default/params.yaml
-  fields:
-  - label: Header script 
-    name: headerScript
-    widget: code
-    default_language: JavaScript
-    hint: You must enclose JS with <script> tags
-  - label: Footer script 
-    name: footerScript
-    widget: code
-    default_language: JavaScript
-    hint: You must enclose JS with <script> tags
 - name: prices
   label: Prices
   label_singular: Price
