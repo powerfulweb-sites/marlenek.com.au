@@ -1,20 +1,3 @@
-{{/* {{ if eq .Type "shop"}}
-{{ partial "esbuild" (dict "src" "js/product-single.js" ) }}
-{{ end }} */}}
-
-
-
-{{- /* EXAMPLE - only load script for production
-{{ if eq (hugo.Environment) "production" -}}
-{{ partial "esbuild" (dict "src" "js/instantpage.js") -}}
-{{ end -}}
-*/}}
-{{/* EXAMPLE - only load script for a page type e.g. contact or gallery
-{{ if eq .Type "gallery" }}
-{{ partial "esbuild" (dict "src" "js/gallery.js" "transpile" true) -}}
-{{ end }}
-
-*/ -}}
 {{/*
 <!-- Global site tag (gtag.js) - Google Ads -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10899024325"></script>

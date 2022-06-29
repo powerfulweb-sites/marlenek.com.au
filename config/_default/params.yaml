@@ -61,6 +61,12 @@ snipcart:
   side: true # or false for full screen cart
   bootstrap: true # enables snipcart z-index css for bootstrap compatibility 
 
+# netlify cms
+headerScript:
+  lang: JavaScript
+  code: >-
 
-headerScript: ""
-footerScript: ""
+footerScript:
+  lang: JavaScript
+  code: >-
+    

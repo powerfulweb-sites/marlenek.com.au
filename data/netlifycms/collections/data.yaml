@@ -3,7 +3,7 @@ label: Site Configuration
 files:
 - name: scripts
   label: Header/Footer Inline Scripts
-  file: config/params.yaml
+  file: config/_default/params.yaml
   fields:
   - label: Header script 
     name: headerScript
