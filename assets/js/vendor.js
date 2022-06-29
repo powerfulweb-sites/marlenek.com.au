@@ -1,3 +1,3 @@
 import lazysizes from 'lazysizes';
 
-import {Dropdown, Tab} from 'bootstrap';
+import { Collapse } from 'bootstrap';

@@ -1,12 +1,13 @@
 <nav class="navbar navbar-expand-md navbar-light">
   <div class="container-fluid">
     {{ $dict := (dict
-      "src" "images/logo-white.png"
-      "width" 50
-      "title" "Marlene K" )}}
-    <a class="navbar-brand p-0" href="{{ absURL " /" }}">{{ partial "image" $dict }}</a>
-    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    "src" "images/logo-white.png"
+    "width" 50
+    "title" "Marlene K" )}}
+    <a class="navbar-brand p-0" href="/">{{ partial "image" $dict }}</a>
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -49,7 +50,7 @@
         {{- end -}}
         {{- end -}}
       </ul>
-      
+
     </div>
   </div>
 </nav>
