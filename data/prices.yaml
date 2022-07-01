@@ -85,5 +85,19 @@ prices:
         amount: 400
   - title: Injectables
     prices:
-      - title: All types
-        amount: POC
+      - title: Brow lift
+        amount: from $99
+      - title: Forehead lines
+        amount: from $99
+      - title: Crows feet
+        amount: from $198
+      - title: Frown lines
+        amount: from $198
+      - title: Fuller lips
+        amount: from $449
+      - title: Lower face
+        amount: from $499
+      - title: Dark circles
+        amount: from $599
+      - title: Contouring cheeks
+        amount: from $599
