@@ -1,4 +1,19 @@
-<nav class="navbar navbar-expand-md navbar-light">
+{{ $schema := .Site.Data.schema }}
+<div class="d-block bg-primary">
+  <div class="container-md">
+    <div class="row">
+      <div class="col py-2">
+        {{ $email:= $schema.email }}
+        <a href="{{ $email.url}}" class="link-dark text-decoration-none">{{ partial "svg-font" (dict "src" "icons/bootstrap/envelope.svg" "block" false "title" "Email" "desc" "Email us") }} {{ $email.text }}</a>
+      </div>
+      <div class="col py-2">
+        {{ $phone:= index $schema.telephone 0 }}
+        <a href="{{ $phone.url}}" class="link-dark text-decoration-none">{{ partial "svg-font" (dict "src" "icons/bootstrap/telephone.svg" "block" false "title" "Phone" "desc" "Phone us") }} {{ $phone.text }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-md navbar-light sticky-top">
   <div class="container-fluid">
     {{ $dict := (dict
     "src" "images/logo-white.png"
@@ -50,7 +65,6 @@
         {{- end -}}
         {{- end -}}
       </ul>
-
     </div>
   </div>
 </nav>

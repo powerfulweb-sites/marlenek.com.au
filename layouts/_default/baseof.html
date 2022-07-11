@@ -22,9 +22,9 @@
   {{- if and .IsHome .Site.Params.alert -}}
   {{ partial "header/alert" . -}}
   {{- end -}}
-  <header>
+
     {{ partial "header/index" . }}
-  </header>
+
   <main>
     {{ if not .IsHome }}
     <div class="container py-3">

@@ -20,7 +20,7 @@
 //     color: $primary !important;
 //     border-color: #bfc1c2 !important;
 //   }
- 
+
 
 //   &__text {
 //     // &:hover {
@@ -52,7 +52,7 @@
 //     margin: 0;
 //     padding-left: 0em;
 //   }
-  
+
 //   ul li {
 //     position: relative;
 //     margin: 0.5rem 0.5em;
@@ -80,4 +80,8 @@
   p {
     margin: 0;
   }
+}
+
+.sticky-top {
+  position: sticky !important;
 }
